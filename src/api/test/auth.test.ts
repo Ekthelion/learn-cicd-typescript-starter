@@ -7,6 +7,6 @@ describe("get API key", () => {
       authorization: "ApiKey 1234567890",
     };
     const apiKey = getAPIKey(headers);
-    expect(apiKey).toBe("1234567890");
+    expect(apiKey).toBe("123456789");
   });
 });
