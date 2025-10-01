@@ -35,7 +35,3 @@ function errStringFromError(err: unknown): string {
   }
   return "An unknown error occurred";
 }
-
-function unused(): number {
-  return 1;
-}
